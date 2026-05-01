@@ -1,15 +1,15 @@
 import { Store, Building2, ShoppingBag, Warehouse, CheckCircle, Package, Users } from "lucide-react";
 
 const audiences = [
-  {
-    icon: Store,
-    title: "Tiendas de barrio",
-    benefits: [
-      "Controla tu inventario",
-      "Evita productos agotados",
-      "Registra ventas rápido",
-    ],
-  },
+  // {
+  //   icon: Store,
+  //   title: "Tiendas de barrio",
+  //   benefits: [
+  //     "Controla tu inventario",
+  //     "Evita productos agotados",
+  //     "Registra ventas rápido",
+  //   ],
+  // },
   {
     icon: Users,
     title: "Negocios familiares",
