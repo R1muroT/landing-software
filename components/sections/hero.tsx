@@ -28,12 +28,22 @@ export function Hero() {
           </p>
 
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Button asChild size="lg" className="text-base px-8">
-              <Link href="#contacto">
+            {/* <Button asChild size="lg" className="text-base px-8"> */}
+              <div className="hidden md:flex items-center gap-4">
+              <a
+                href="https://wa.me/573022775179?text=Hola,%20quiero%20información%20sobre%20el%20sistema"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-4 py-2 rounded-xl bg-green-500 text-white hover:bg-green-600 transition"
+              >
+                  Solicitar Demo
+                </a>
+              </div>
+              {/* <Link href="#contacto">
                 Solicitar Demo
                 <ArrowRight className="ml-2 h-4 w-4" />
-              </Link>
-            </Button>
+              </Link> */}
+            {/* </Button> */}
             <Button asChild variant="outline" size="lg" className="text-base px-8">
               <Link href="#caracteristicas">Ver Características</Link>
             </Button>

@@ -16,11 +16,11 @@ const features = [
     title: "Reportes de ventas",
     description: "Dashboards interactivos con métricas clave. Analiza tendencias, márgenes y rendimiento en tiempo real.",
   },
-  {
-    icon: Shield,
-    title: "Seguridad avanzada",
-    description: "Protección de datos con encriptación de nivel empresarial. Copias de seguridad automáticas y recuperación.",
-  },
+  // {
+  //   icon: Shield,
+  //   title: "Seguridad avanzada",
+  //   description: "Protección de datos con encriptación de nivel empresarial. Copias de seguridad automáticas y recuperación.",
+  // },
   {
     icon: Zap,
     title: "Rendimiento óptimo",

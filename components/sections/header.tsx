@@ -37,10 +37,21 @@ export function Header() {
           </nav>
 
           <div className="hidden md:flex items-center gap-4">
+          <a
+            href="https://wa.me/573022775179?text=Hola,%20quiero%20información%20sobre%20el%20sistema"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-4 py-2 rounded-xl bg-green-500 text-white hover:bg-green-600 transition"
+          >
+              Solicitar Demo
+            </a>
+          </div>
+
+          {/* <div className="hidden md:flex items-center gap-4">
             <Button asChild>
               <Link href="#contacto">Solicitar Demo</Link>
             </Button>
-          </div>
+          </div> */}
 
           <button
             className="md:hidden p-2"

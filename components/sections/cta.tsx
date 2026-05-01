@@ -19,14 +19,24 @@ export function CTA() {
             </p>
 
             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
-              <Button asChild size="lg" variant="secondary" className="text-base px-8">
+              <div className="hidden md:flex items-center gap-4">
+          <a
+            href="https://wa.me/573022775179?text=Hola,%20quiero%20información%20sobre%20el%20sistema"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-4 py-2 rounded-xl bg-green-500 text-white hover:bg-green-600 transition"
+          >
+              Solicitar Demo
+            </a>
+          </div>
+              {/* <Button asChild size="lg" variant="secondary" className="text-base px-8">
                 <Link href="mailto:contacto@gestorpro.com">
                   <Mail className="mr-2 h-4 w-4" />
                   Solicitar Demo
                 </Link>
-              </Button>
+              </Button> */}
               <Button asChild size="lg" variant="outline" className="text-base px-8 bg-transparent border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground">
-                <Link href="tel:+521234567890">
+                <Link href="tel:+523022775179">
                   <Phone className="mr-2 h-4 w-4" />
                   Llamar ahora
                 </Link>

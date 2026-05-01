@@ -1,27 +1,62 @@
-import { Store, Building2, ShoppingBag, Warehouse, CheckCircle } from "lucide-react";
+import { Store, Building2, ShoppingBag, Warehouse, CheckCircle, Package, Users } from "lucide-react";
 
 const audiences = [
+  {
+    icon: Store,
+    title: "Tiendas de barrio",
+    benefits: [
+      "Controla tu inventario",
+      "Evita productos agotados",
+      "Registra ventas rápido",
+    ],
+  },
+  {
+    icon: Users,
+    title: "Negocios familiares",
+    benefits: [
+      "Inventario compartido",
+      "Menos errores",
+      "Ventas claras",
+    ],
+  },
   {
     icon: Store,
     title: "Tiendas minoristas",
     benefits: ["Control de inventario", "Punto de venta integrado", "Gestión de clientes"],
   },
   {
-    icon: Building2,
-    title: "Distribuidoras",
-    benefits: ["Rutas de entrega", "Facturación masiva", "Control de créditos"],
-  },
-  {
-    icon: ShoppingBag,
-    title: "Comercios en general",
-    benefits: ["Multi-sucursal", "Reportes consolidados", "Gestión de proveedores"],
-  },
-  {
-    icon: Warehouse,
-    title: "Almacenes",
-    benefits: ["Ubicaciones de stock", "Lotes y caducidades", "Picking optimizado"],
+    icon: Package,
+    title: "Ventas rápidas o informales",
+    benefits: [
+      "Ventas en segundos",
+      "Control diario",
+      "Simple y práctico",
+    ],
   },
 ];
+
+// const audiences = [
+//   {
+//     icon: Store,
+//     title: "Tiendas minoristas",
+//     benefits: ["Control de inventario", "Punto de venta integrado", "Gestión de clientes"],
+//   },
+//   {
+//     icon: Building2,
+//     title: "Distribuidoras",
+//     benefits: ["Rutas de entrega", "Facturación masiva", "Control de créditos"],
+//   },
+//   {
+//     icon: ShoppingBag,
+//     title: "Comercios en general",
+//     benefits: ["Multi-sucursal", "Reportes consolidados", "Gestión de proveedores"],
+//   },
+//   {
+//     icon: Warehouse,
+//     title: "Almacenes",
+//     benefits: ["Ubicaciones de stock", "Lotes y caducidades", "Picking optimizado"],
+//   },
+// ];
 
 export function Audience() {
   return (
