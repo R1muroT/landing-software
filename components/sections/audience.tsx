@@ -26,7 +26,7 @@ const audiences = [
   },
   {
     icon: Package,
-    title: "Ventas rápidas o informales",
+    title: "Ventas informales",
     benefits: [
       "Ventas en segundos",
       "Control diario",
@@ -71,7 +71,7 @@ export function Audience() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="flex flex-wrap justify-center gap-6">
           {audiences.map((audience, index) => (
             <div
               key={index}
