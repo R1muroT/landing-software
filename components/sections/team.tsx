@@ -1,6 +1,6 @@
 const team = [
   {
-    name: "Samuel Gonzales",
+    name: "Samuel Gonzalez",
     role: "CEO & Fundador",
     initials: "SG",
   },
